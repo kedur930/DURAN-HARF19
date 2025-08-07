@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda - DURAN HARF Ltd. Şti</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://i.imgur.com/qyz7CYO.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        header {
+            background-color: #1a237e;
+            /* Koyu mavi */
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #000;
+            /* Siyah */
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0.5rem 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #3f51b5;
+            /* Açık mavi */
+        }
+
+        .about-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #000;
+            /* Siyah arka plan */
+            color: #fff;
+            /* Beyaz metin */
+            border: 3px solid #1a237e;
+            /* Koyu mavi çerçeve, daha belirgin */
+            border-radius: 10px;
+            /* Daha yumuşak köşeler */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+            /* Daha derin gölge */
+        }
+
+        .about-container h1 {
+            font-size: 1.8rem;
+            color: #3f51b5;
+            /* Açık mavi başlık */
+            margin-bottom: 1.5rem;
+            text-align: center;
+            text-transform: uppercase;
+            /* Daha profesyonel görünüm */
+        }
+
+        .about-container p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        footer {
+            background-color: #1a237e;
+            /* Koyu mavi */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Mobil uyumluluk için medya sorguları */
+        @media (max-width: 768px) {
+            header {
+                font-size: 1.2rem;
+                padding: 1rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+
+            .about-container {
+                margin: 1rem;
+                padding: 1.5rem;
+                border-width: 2px;
+            }
+
+            .about-container h1 {
+                font-size: 1.5rem;
+            }
+
+            .about-container p {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                font-size: 1rem;
+            }
+
+            nav ul li a {
+                font-size: 1rem;
+            }
+
+            .about-container {
+                margin: 0.5rem;
+                padding: 1rem;
+                border-radius: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>DURAN HARF Ltd. Şti</header>
+    <nav>
+        <ul>
+            <li><a href="kamyoonn.png">Araçlar</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="tel:+905333109856">İletişim</a></li>
+        </ul>
+    </nav>
+    <p>
+        Sn şirket yöneticimiz
+        MEHMET DURAN
+    </p>
+    <img src="mehmet duran.jpg" alt="mehmet duran">
+    <div class="about-container">
+        <h1>Hakkımızda</h1>
+        <p>DURAN HARF Ltd. Şti. olarak, yılların getirdiği deneyimle hafriyat sektöründe güvenilir ve kaliteli hizmet
+            sunuyoruz. Kamyon ve kepçe gibi profesyonel ekipmanlarımızla, projelerinizi zamanında ve en iyi şekilde
+            tamamlamayı taahhüt ediyoruz.</p>
+    </div>
+    <footer>
+        © 2025 DURAN HARF Ltd. Şti. Tüm hakları saklıdır.
+    </footer>
+</body>
+
+</html>

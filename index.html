@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DURAN HARF Ltd. Şti</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://i.imgur.com/qyz7CYO.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        header {
+            background-color: #1a237e;
+            /* Koyu mavi */
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #000;
+            /* Siyah */
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0.5rem 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #3f51b5;
+            /* Açık mavi */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .container p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Mobil uyumluluk için medya sorguları */
+        @media (max-width: 768px) {
+            header {
+                font-size: 1.2rem;
+                padding: 1rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+
+            .container h1 {
+                font-size: 1.5rem;
+            }
+
+            .container p {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                font-size: 1rem;
+            }
+
+            nav ul li a {
+                font-size: 1rem;
+            }
+
+            .container {
+                margin: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>DURAN HARF Ltd. Şti</header>
+    <nav>
+        <ul>
+
+            <li><a href="araç.html">Araçlar</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="tel:+905333109856">İletişim</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Profesyonel Hafriyat Hizmetleri</h1>
+        <p>Kamyon, kepçe</p>
+    </div>
+    <footer>
+        © 2025 DURAN HARF Ltd. Şti. Tüm hakları saklıdır.
+    </footer>
+</body>
+
+</html>
